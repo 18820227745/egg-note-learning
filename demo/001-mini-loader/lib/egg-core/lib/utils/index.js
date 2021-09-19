@@ -27,7 +27,7 @@ module.exports = {
       // if not js module, just return content buffer
       const extname = path.extname(filepath);
       if (![ '.js', '.node', '.json', '' ].includes(extname)) {
-        return fs.readFileSync(filepath); // TODO  官方试同步获取吗？
+        return fs.readFileSync(filepath); // TODO  官方是同步获取吗？
       }
       // require js module
       const obj = require(filepath);

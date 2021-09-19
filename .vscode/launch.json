@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/demo/001-mini/index.js"
+      "program": "${workspaceFolder}/demo/001-mini-loader/index.js"
     }
   ]
 }
