@@ -1,5 +1,5 @@
 'use strict';
-const EggApplication = require('./lib/egg');
+const EggApplication = require('./lib/egg').EggApplication;
 const http = require('http');
 
 

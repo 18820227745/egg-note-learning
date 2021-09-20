@@ -1,6 +1,6 @@
 'use strict';
 
-const { EggCore, EggLoader } = require('./../egg-core');
+const { EggCore, EggLoader } = require('../../egg-core');
 
 class AppWorkerLoader extends EggLoader {
   loadAll() {
